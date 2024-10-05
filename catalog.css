@@ -1,0 +1,184 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family:"Ubuntu", sans-serif;
+    /* font-family: 'Rubik', sans-serif; */
+}
+
+a {
+    text-decoration: none;
+    color:#FFF6F6;
+    font-size:15px;
+}
+
+/*НАВИГАЦИОННАЯ ПАНЕЛЬ*/
+
+.header__1 {
+    background-color:#403B3B;
+    margin-bottom: 12px;
+}
+
+.wrapp {
+    max-width:1280px;
+    height:52px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.header__a_left {
+    display:flex;
+    align-items: center;
+    gap:24px;
+}
+
+.header__a_right {
+    display:flex;
+    text-align:center;
+    gap:24px;
+}
+
+.header__2 {
+    height: 68px;
+    margin-bottom:23px;
+}
+
+.wrapper {
+    display:flex;
+    max-width:1280px;
+    margin:0 auto;
+}
+
+.catalog {
+    background-color: #EB2727;
+    height: 41px;
+    width: 125px;
+    border:none;
+    cursor: pointer;
+    border-radius:4px;
+    margin-top:13px;
+}
+
+.catalog img {
+    height: 13px;
+    width: 22px;
+}
+
+.catalog a {
+    font-size:14px;
+}
+
+.search__bar {
+    height:43px;
+    width:625px;
+    border-width: 1px;
+    border-color: #EFEFEF;
+    border-radius:4px;
+    margin-top: 12px;
+    margin-left: 17px;
+    position: relative;
+}
+
+.search__btn {
+    background-image:url('/img/Кнопка поиска.svg');
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top:77.5px;
+    left:846px;
+    cursor: pointer;
+}
+
+.icon {
+    display:block;
+    margin-top: 16px;
+    margin-right:40px;
+    margin-left: 41px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.icon p {   
+    font-size:12px;
+}
+
+.icon:last-child {
+    margin-right: 0;
+}
+/*НАВИГАЦИОННАЯ ПАНЕЛЬ*/
+
+.wrapper__catalog {
+    max-width:1280px;
+    margin: 0 auto;
+}
+
+.wrapper__catalog h2 {
+    display: block;
+    font-size:36px;
+    margin-bottom: 28px;
+}
+
+.grid__container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* шесть колонок */
+    grid-gap: 30px; /* расстояние между картинками */
+    margin-bottom: 80px;
+}
+
+.product__div {
+    text-align: center;
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+}
+
+.footer {
+    background-color:#403B3B;
+    width: 100%;
+    height: 155px;
+}
+
+.footer__container {
+    max-width: 1280px;
+    margin:0 auto;
+    justify-content:space-between;
+}
+
+.footer__content {
+    padding-top: 40px;
+    display:flex;
+    justify-content:center;
+    justify-content:space-between;
+}
+
+.footer__right-content {
+    display: block;
+    color:white;
+}
+
+.footer__right-content p {
+    margin-bottom: 8px;
+}
+
+.footer__left-content h3 {
+    display: block;
+    margin-bottom: 8px;
+    color:white;
+}
+
+.footer__left-content__imgs {
+    display: flex;
+    gap:15px;
+    cursor: pointer;
+}

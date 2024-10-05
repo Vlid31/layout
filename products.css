@@ -1,0 +1,293 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family:"Ubuntu", sans-serif;
+    /* font-family: 'Rubik', sans-serif; */
+}
+
+a {
+    text-decoration: none;
+    color:#FFF6F6;
+    font-size:15px;
+}
+
+/*НАВИГАЦИОННАЯ ПАНЕЛЬ*/
+.header__1 {
+    background-color:#403B3B;
+    margin-bottom: 12px;
+}
+
+.wrapp {
+    max-width:1280px;
+    height:52px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.header__a_left {
+    display:flex;
+    align-items: center;
+    gap:24px;
+}
+
+.header__a_right {
+    display:flex;
+    text-align:center;
+    gap:24px;
+}
+
+.header__2 {
+    height: 68px;
+    margin-bottom:10px;
+}
+
+.wrapper {
+    display:flex;
+    max-width:1280px;
+    margin:0 auto;
+}
+
+.catalog {
+    background-color: #EB2727;
+    height: 41px;
+    width: 125px;
+    border:none;
+    cursor: pointer;
+    border-radius:4px;
+    margin-top:13px;
+}
+
+.catalog img {
+    height: 13px;
+    width: 22px;
+}
+
+.catalog a {
+    font-size:14px;
+}
+
+.search__bar {
+    height:43px;
+    width:625px;
+    border-width: 1px;
+    border-color: #EFEFEF;
+    border-radius:4px;
+    margin-top: 12px;
+    margin-left: 17px;
+    position: relative;
+}
+
+.search__btn {
+    background-image:url('/img/Кнопка поиска.svg');
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top:77.5px;
+    left:846px;
+    cursor: pointer;
+}
+
+.icon {
+    display:block;
+    margin-top: 16px;
+    margin-right:40px;
+    margin-left: 41px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.icon p {   
+    font-size:12px;
+}
+
+.icon:last-child {
+    margin-right: 0;
+}
+
+.header__3 {
+    width:100%;
+    height: 30px;
+    margin-bottom:30px;
+}
+ 
+.header__3-nav {
+    color:black;
+    margin-right:74px;
+}
+
+.header__3-nav:last-child {
+    margin-right: 0;
+}
+
+/* ЛЕВАЯ СТОРОНА */
+.main__wrapper {
+    max-width:1280px;
+    height: 1050px;
+    margin:0 auto;
+}
+
+.main__left {
+    float:left;
+    width:300px;
+}
+
+.main__left h2 {
+    font-size:32px;
+    margin-bottom: 28px;
+}
+
+.main__left__categories {
+    font-size: 14px;
+    font-weight:400;
+    margin-bottom: 31px;
+}
+
+.main__categories__up p {
+    font-size:12px;
+    margin-bottom: 21px;
+}
+
+.main__categories__up {
+    display:flex;
+}
+
+.main__choice {
+    width: 14px;
+    height: 14px;
+    border:2px solid black;
+    margin-right: 12px;
+    cursor:pointer;
+}
+
+.main__left__brend {
+    margin-bottom:27px;
+    font-size:14px;
+    font-weight: normal;
+}
+
+.main__left__search__btn {
+    padding:15px 66px 15px 66px;
+    background-color: white;
+    border: 1px solid rgb(152, 148, 148);
+    cursor: pointer;
+    margin-bottom: 26px;
+}
+
+.main__left__more {
+    color:#0063E7;
+    cursor: pointer;
+    font-size:14px;
+    margin-bottom:62px;
+}
+
+.main__left__clear {
+    background-color: white;
+    border:solid 1px rgb(152, 148, 148);
+    padding: 19px 87px 19px 87px;
+    cursor:pointer;
+}
+
+/* ПРАВАЯ СТОРОНА */
+.main__right {
+    float:right;
+    width:980px;
+}
+
+.main__right__product {
+    margin-left: 130px;
+    height: 200px;
+    display: flex;
+}
+
+.main__right__product__img {
+    margin-right:70px;
+}
+
+.main__right__desc {
+    display:inline-block;
+    padding-top:56px;
+    margin-right:40px;
+}
+
+.main__right__desc p {
+    margin-bottom: 1px;
+}
+
+.main__right__price__basket__featured {
+    margin-top: 77px;
+    width: 154px;
+}
+
+.main__right__price {
+    font-size:36px;
+    display:block;
+    margin-bottom: 15px;
+}
+
+.main__right__basket__featured {
+    display:flex;
+}
+
+.main__right__basket {
+    background-color:#EB2727;
+    border:none;
+    padding:8px 28px 8px 28px;
+    font-size:12px;
+    color:white;
+    cursor: pointer;
+    border-radius:4px;
+    margin-right: 20px;
+}
+
+.main__right__featured {
+    padding-top:9px;
+}
+
+.footer {
+    background-color:#403B3B;
+    height: 155px;
+}
+
+.footer__container {
+    max-width: 1280px;
+    margin:0 auto;
+    justify-content:space-between;
+}
+
+.footer__content {
+    padding-top: 40px;
+    display:flex;
+    justify-content:center;
+    justify-content:space-between;
+}
+
+.footer__right-content {
+    display: block;
+    color:white;
+}
+
+.footer__right-content p {
+    margin-bottom: 8px;
+}
+
+.footer__left-content h3 {
+    display: block;
+    margin-bottom: 8px;
+    color:white;
+}
+
+.footer__left-content__imgs {
+    display: flex;
+    gap:15px;
+    cursor: pointer;
+}
